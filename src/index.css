@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(60, 60, 60);
+}
+
+.btwn{
+    text-align: center;
+    font-size: 1.2em;
+}
+
+h2{
+    color: rgb(60, 60, 60);
+    font-size: 1.4em;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+
+p{
+    color: rgb(103, 97, 97);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8em;
+}
+
+.carousel-container{
+    position: relative;
+    /* width: 100%; */
+    max-width: 800px;
+    margin: 40px 350px;
+    height: 3%;
+}
+
+.image-carousel{
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    object-fit: cover;
+    object-position: center ;
+    border-radius: 4px;
+}
+
+.next, .prev{
+    color: rgb(216, 216, 216);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 1.6em;
+    cursor: pointer;
+    height: 550px;
+    width: 50px;
+}
+
+button:hover{
+    background-color: rgba(0, 0, 0, 0.214);
+}
+
+.next{
+    left: 750px;
+}

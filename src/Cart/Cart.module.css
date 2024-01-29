@@ -1,0 +1,67 @@
+.head{
+    margin: 5vh 20vw;
+    font-size: 3.4em;
+
+}
+
+.cart{
+    display: flex;
+    width: 60vw;
+    margin: 80px 300px;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    padding-left: 50px;
+    align-items: flex-start;
+}
+
+.p{
+    font-size: 1.4em;
+    margin: 0;
+    color: rgb(19, 18, 18);
+
+}
+
+.btn{
+    background-color: red;
+    color: white;
+    width: 140px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.btn:hover{
+    background-color: darkred;
+}
+
+.checkOut{
+    background-color: rgba(146, 112, 2, 0.911);
+    color: white;
+    height: 50px;
+    width: 140px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.checkOut:hover{
+    background-color: rgba(79, 61, 2, 0.799);
+}
+
+.checkDiv{
+    display: flex;
+    margin-left: 60vw;
+    align-items: center;
+}
